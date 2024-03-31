@@ -3,7 +3,6 @@ import { addCommentLinkPost } from '../functions/addComment';
 require('dotenv').config();
 
 test('x', async ({ page }) => {
-    test.setTimeout(60000)
     const username = process.env.USER || ''
     const password = process.env.PASSWORD || ''
 

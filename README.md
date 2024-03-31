@@ -5,6 +5,8 @@ This repository contains code that enables the addition of comments to any speci
 We utilize Playwright and TypeScript for this automation.
 
 ## Setting Up
+Run `npm i` 
+This command installs everything you need and sets up the project for immediate use.
 
 To run this code, you must specify a user in the `.env` file. You can find an example configuration in the `envExample` file.
 
