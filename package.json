@@ -1,0 +1,20 @@
+{
+  "name": "reditbot",
+  "version": "1.0.0",
+  "description": "bot to comment reddit post",
+  "main": "index.js",
+  "scripts": {
+    "addComment": "playwright test",
+    "addComment:headed": "playwright test --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.12.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
